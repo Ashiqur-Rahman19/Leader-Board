@@ -1,0 +1,141 @@
+body{
+    background-color: #E5E5E5;
+}
+
+
+/* ============= Header section starts here =================== */
+header{
+    background-color: #43a2fc;
+}
+.navbar{
+    background-color: #43a2fc !important;   
+}
+.profile_images img{
+    width: 51px;
+    border-radius: 50%;
+}
+.nav-item a{
+    color: white;
+}
+.nav-link {
+    margin: 0 15px;
+}
+/* ============= Header section ends here =================== */
+
+
+/* ============= Main section starts here =================== */
+main{
+    background-color: #E5E5E5;
+}
+.players, .blogs, .courses{
+    background-color: white;
+    padding: 25px;
+}
+.courses{
+    border-radius: 10px;
+}
+.players{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blogs{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.players h2{
+    color: #43a2fc;
+    font-weight: bold;
+}
+.blogs h2{
+    color: #43a2fc;
+    font-weight: bold;
+}
+.blogs img{
+    width: 177px;
+    height: 117px;
+}
+.blogs .span{
+    color: #43a2fc;
+}
+.courses{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.courses h2{
+    color: #43a2fc;
+    font-weight: bold;
+}
+.courses .card{
+    margin-top: 25px;
+    border: none;
+    box-shadow: 2px 2px 10px rgb(201, 201, 201);
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+}
+.ratings img{
+    width: 20px;
+    height: 20px;
+}
+.small_1{
+    font-size: 17px;
+    margin-top: 3px;
+    color: #a5a5a5;
+    font-weight: 400;
+}
+.time img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.time{
+    background-color: #43a2fc;
+    padding: 5px 12px;
+    margin-left: 25px;
+    border-radius: 50px;
+}
+.time a{
+    text-decoration: none; 
+}
+.time small{
+    font-size: 16px;
+    margin-bottom: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.card{
+    transition: .3s;
+}
+.card:hover{
+    transform: scale(.95);
+    transition: .3s;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
+/* ============= Main section ends here =================== */
+
+
+/* ============= Footer section starts here =================== */
+footer p{
+    text-align: center;
+    margin-bottom: 5px;
+    color: #585858;
+}
+span{
+    color: #43a2fc;
+}
+/* ============= Footer section ends here =================== */
+
+
+
+
+
+/* ============= Responsive section starts here =================== */
+@media (max-width:768px) {
+    .b_section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* ============= Responsive section ends here =================== */
